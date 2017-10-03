@@ -1,3 +1,5 @@
 language: java
 
+before_script: cd ./WASO-Project-Moodle
+
 script: mvn clean verify -Dfile.encoding=UTF-8 clean install
